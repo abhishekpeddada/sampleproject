@@ -3,18 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Simple Form</title>
+  <title>User Registration</title>
 </head>
 <body>
-  <h1>Simple Form</h1>
+  <h1>User Registration</h1>
   <form action="/submit" method="post">
-    <label for="input1">Input 1:</label>
-    <input type="text" id="input1" name="input1" required>
+    <label for="input1">Username:</label>
+    <input type="text" id="input1" name="input1" autocomplete="off" required>
     <br>
-    <label for="input2">Input 2:</label>
-    <input type="password" id="input2" name="input2" required>
+    <label for="input2">Password:</label>
+    <input type="password" id="input2" name="input2" autocomplete="off" required>
     <br>
     <button type="submit">Submit</button>
   </form>
+<a href="/admin">Admin Login</a>
+<a href="/user">User Login</a>
 </body>
 </html>
